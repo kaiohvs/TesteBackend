@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "oMD/dy3lA/PG2MBdX4MzC9O6DHN4kLkcRnPuMCqbUAL8CvpINi/OofJbKcN3GuQR1ECDgou+Wh/QSCsQWhBniw==",
+  "success": true,
+  "projectFilePath": "C:\\temp\\TesteBackend\\TesteBackend\\TesteBackendEnContact\\TesteBackendEnContact\\TesteBackendEnContact.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaio.santos_creditas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\kaio.santos_creditas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kaio.santos_creditas\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\kaio.santos_creditas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\kaio.santos_creditas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\kaio.santos_creditas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
