@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using TesteBackendEnContact.Models;
+using TesteBackendEnContact.Repositories;
 
 namespace TesteBackendEnContact
 {
@@ -22,6 +23,7 @@ namespace TesteBackendEnContact
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AgendaContext>(x => x.UseSqlite("Data source=Agendas.db"));
+            services.AddScoped<IAgendaRepository, AgendaRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
