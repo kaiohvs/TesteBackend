@@ -23,7 +23,11 @@ namespace TesteBackendEnContact
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AgendaContext>(x => x.UseSqlite("Data source=Agendas.db"));
+            services.AddDbContext<CompanyContext>(x => x.UseSqlite("Data source=Companies.db"));
+
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
             services.AddScoped<IAgendaRepository, AgendaRepository>();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
